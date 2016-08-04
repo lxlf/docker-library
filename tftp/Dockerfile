@@ -8,8 +8,7 @@ RUN apk add --no-cache tftp-hpa \
     && mkdir -p /data/tftproot/  \
     && mkdir -p /data/tftplog/   \
     && chmod 777 /data/tftproot/ \
-    && chmod 777 /data/tftplog/  \
-    && ln -s /var/log/syslog /data/tftplog/tftplog
+    && chmod 777 /data/tftplog/ 
     
 VOLUME ["/data/tftproot/"]
 
