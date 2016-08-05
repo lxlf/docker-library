@@ -1,4 +1,4 @@
-FROM tomcat:7
+FROM tomcat:7.0.69
 
 MAINTAINER Xi Liu <swordmouse@163.com>
 
