@@ -1,0 +1,14 @@
+{
+  "name": "jsmpeg",
+  "version": "2.0.0",
+  "description": "",
+  "author": "xi.liu",
+  "main": "websocket-relay.js",
+  "dependencies": {
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node websocket-relay.js 1234567890 48081 48082 48083"
+  }
+}
