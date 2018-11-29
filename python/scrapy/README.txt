@@ -1,0 +1,1 @@
+docker build -t swordmouse/scrapy:1.5.1 .
