@@ -7,7 +7,8 @@ ENV CONF_VERSION  7.1.2
 
 # Install Atlassian Confluence
 RUN set -x \
-    && apt-get update --quiet \
+    && apt-get update --quiet    \
+    && apt-get install -y curl   \
     && apt-get clean \
     && mkdir -p                "${CONF_HOME}" \
     && chmod -R 700            "${CONF_HOME}" \
